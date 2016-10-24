@@ -4,18 +4,18 @@ body {
 
 .navbar {
     margin-bottom: 0;
-    background-color: #e3f2fd;
+    background-color: #b7e1df;
 
 }
 
 .navbar-collapse .container-fluid {
     padding: 2rem 2.5rem;
     border-bottom: 1px solid #55595c;
-    background-color: lavender;
+    background-color: #fbf8e5;
 }
 
 .navbar-collapse h4 {
-    color: #818a91;
+    color: black;
 }
 
 .navbar-collapse .text-muted {
@@ -62,15 +62,14 @@ body {
 
 .jumbotron p {
     color: white;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 
 }
 
 .album {
-    min-height: 50rem; /* Can be removed; just added for demo purposes */
     padding-top: 3rem;
     padding-bottom: 3rem;
-    background-color: #f7f7f7;
+    background-color: rgb(251,248,229);
 }
 
 
@@ -98,6 +97,17 @@ body {
     font-size: 85%;
 }
 
+.list-unstyled a{
+    color: lightgrey;
+}
+
+.more-info{
+    content: center;
+}
+
+.random-paragraph{
+    margin: 20px 35px
+}
 footer {
     padding-top: 3rem;
     padding-bottom: 3rem;
