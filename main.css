@@ -105,8 +105,12 @@ body {
     content: center;
 }
 
-.random-paragraph{
-    margin: 20px 35px
+.random-paragraph {
+    margin: 20px 400px;
+}
+
+.random-paragraph > p{
+   text-align: center;
 }
 footer {
     padding-top: 3rem;
